@@ -5,16 +5,16 @@ import pandas as pd
 # Definition der Parteien und Aussagen
 parteien = ["Grüne", "Linke", "SPD", "CDU", "AfD", "FDP"]
 aussagen = [
-    "Schule & Bildung",
-    "Umwelt & Klima",
-    "Familie & Soziales",
-    "Technik & Digitalisierung",
-    "Freizeit & Verkehr",
-    "Tiere & Umwelt",
-    "Europa & Außenpolitik",
-    "Geld & Wirtschaft",
-    "Arbeit & Zukunft",
-    "Migration & Flucht"
+    "Alle Kinder sollen so lange wie möglich auf eine Schule gehen können, wo mehrere Abschlüsse möglich sind.",
+    "Autos sollen weniger Abgase ausstoßen, auch wenn das teurer wird.",
+    "Eltern sollen mehr Geld vom Staat bekommen, damit sie sich besser um ihre Kinder kümmern können.",
+    "In allen Schulen soll es kostenloses WLAN und moderne Computer geben.",
+    "Busse und Bahnen sollen für Kinder und Jugendliche kostenlos sein.",
+    "Es soll strengere Regeln geben, damit Bauern ihre Tiere besser behandeln müssen.",
+    "Deutschland soll helfen, wenn andere Länder in Not sind.",
+    "Menschen, die viel Geld verdienen, sollen mehr Steuern zahlen als andere.",
+    "Alle Menschen sollen so arbeiten können, dass sie genug Geld zum Leben haben, ohne sich Sorgen machen zu müssen.",
+    "Alle Menschen, die in Deutschland Schutz suchen, sollen einen Asylantrag stellen können."
 ]
 
 # Positionen der Parteien (3 = stark dafür, 2 = eher dafür, 1 = neutral, -2 = eher dagegen, -3 = stark dagegen)
