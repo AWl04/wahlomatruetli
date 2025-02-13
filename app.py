@@ -7,34 +7,34 @@ parteien = ["Grüne", "Linke", "SPD", "CDU", "AfD", "FDP"]
 aussagen = [
     "1. Alle Kinder sollen so lange wie möglich auf eine Schule gehen können, wo mehrere Abschlüsse möglich sind.",
     "2. Autos sollen weniger Abgase ausstoßen, auch wenn das teurer wird.",
-    "3. Eltern sollen mehr Geld vom Staat bekommen, damit sie sich besser um ihre Kinder kümmern können.",
+    "3. Der Staat soll Eltern zusätzliches Geld geben, damit sie sich gut um ihre Kinder kümmern können.",
     "4. In allen Schulen soll es kostenloses WLAN und moderne Computer geben.",
     "5. Busse und Bahnen sollen für Kinder und Jugendliche kostenlos sein.",
-    "6. Es soll strengere Regeln geben, damit Bauern ihre Tiere besser behandeln müssen.",
-    "7. Deutschland soll helfen, wenn andere Länder in Not sind.",
-    "8. Menschen, die viel Geld verdienen, sollen mehr Steuern zahlen als andere.",
-    "9. Alle Menschen sollen so arbeiten können, dass sie genug Geld zum Leben haben, ohne sich Sorgen machen zu müssen.",
+    "6. Bauern sollen keine strengeren Regeln für die Tierhaltung bekommen, damit die Lebensmittelpreise niedrig bleiben.",
+    "7. Der Ausbau von erneuerbaren Energien soll nicht vom Staat mit Geld unterstützt werden.",
+    "8. Ein generelles Tempolimit auf Autobahnen ist nicht nötig, weil Autofahrer selbst verantwortlich sind.",
+    "9. Die Mietpreise sollen immer weiter erhöht werden dürfen, weil Vermieter frei entscheiden dürfen, wie viel sie verlangen.",
     "10. Alle Menschen, die in Deutschland Schutz suchen, sollen einen Asylantrag stellen können."
 ]
 
 # Meinungen der Parteien zu den Aussagen
 meinungen = {
-    "Grüne": ["Ja, wir unterstützen das!", "Ja, wichtig für den Klimaschutz!", "Ja, Familien müssen unterstützt werden!", "Ja, Digitalisierung ist entscheidend!", "Ja, kostenloser Nahverkehr hilft allen!", "Ja, mehr Tierschutz ist nötig!", "Ja, wir müssen helfen!", "Ja, soziale Gerechtigkeit ist wichtig!", "Ja, faire Löhne für alle!", "Ja, Asylrecht muss gewahrt bleiben!"],
-    "Linke": ["Ja, alle sollen gleiche Chancen haben!", "Ja, Klimaschutz geht vor!", "Ja, Reiche sollen mehr zahlen!", "Ja, Bildung muss kostenlos sein!", "Ja, Mobilität ist ein Grundrecht!", "Ja, Tierschutz ist eine Priorität!", "Ja, wir helfen solidarisch!", "Ja, Reiche sollen mehr beitragen!", "Ja, gute Arbeit für alle!", "Ja, keine Abschiebungen mehr!"],
-    "SPD": ["Ja, aber mit Kompromissen!", "Ja, aber nicht zu schnell!", "Ja, aber wir müssen es finanzieren!", "Ja, aber Schulen müssen mitmachen!", "Ja, aber nur für Bedürftige!", "Ja, aber mit Unterstützung für Bauern!", "Ja, aber mit EU-Abstimmung!", "Ja, aber mit Augenmaß!", "Ja, aber auch Unternehmen müssen profitieren!", "Ja, aber kontrollierte Migration!"],
-    "CDU": ["Nein, wir brauchen unterschiedliche Schulen!", "Nein, zu teuer für Autofahrer!", "Nein, Familien sollen selbst vorsorgen!", "Ja, aber nicht als Pflicht!", "Nein, das kostet zu viel!", "Nein, Bauern sollten selbst entscheiden!", "Ja, aber nur begrenzt!", "Nein, zu hohe Steuern schaden der Wirtschaft!", "Nein, der Markt regelt das!", "Nein, Migration muss begrenzt werden!"],
-    "AfD": ["Nein, das alte System funktioniert!", "Nein, Klimawandel ist nicht menschengemacht!", "Nein, weniger Staat, mehr Eigenverantwortung!", "Nein, Digitalisierung ist überbewertet!", "Nein, keine staatlichen Zuschüsse für Verkehr!", "Nein, Tierschutz ist überreguliert!", "Nein, wir sollen uns nicht einmischen!", "Nein, Steuern senken für alle!", "Nein, der Markt regelt Löhne!", "Nein, keine Aufnahme von Migranten!"],
-    "FDP": ["Nein, Leistung muss sich lohnen!", "Nein, Technologie soll es lösen!", "Nein, keine zusätzlichen Ausgaben!", "Ja, aber mit privaten Anbietern!", "Nein, keine Gratisleistungen!", "Nein, Tierschutz über den Markt regeln!", "Ja, aber wirtschaftlich vertretbar!", "Nein, niedrige Steuern fördern Wachstum!", "Nein, Arbeitsmarkt muss flexibel bleiben!", "Nein, nur qualifizierte Migration!"]
+    "Grüne": ["Ja, wir unterstützen das!", "Ja, wichtig für den Klimaschutz!", "Ja, Familien müssen unterstützt werden!", "Ja, Digitalisierung ist entscheidend!", "Ja, kostenloser Nahverkehr hilft allen!", "Nein, mehr Tierschutz ist nötig!", "Nein, erneuerbare Energien müssen gefördert werden!", "Nein, Tempolimit ist nötig!", "Nein, Mietpreise müssen reguliert werden!", "Ja, Asylrecht muss gewahrt bleiben!"],
+    "Linke": ["Ja, alle sollen gleiche Chancen haben!", "Ja, Klimaschutz geht vor!", "Ja, Reiche sollen mehr zahlen!", "Ja, Bildung muss kostenlos sein!", "Ja, Mobilität ist ein Grundrecht!", "Nein, Tierschutz ist eine Priorität!", "Nein, erneuerbare Energien brauchen Förderung!", "Nein, Tempolimit schützt Leben!", "Nein, Mietpreise müssen begrenzt werden!", "Ja, keine Abschiebungen mehr!"],
+    "SPD": ["Ja, aber mit Kompromissen!", "Ja, aber nicht zu schnell!", "Ja, aber wir müssen es finanzieren!", "Ja, aber Schulen müssen mitmachen!", "Ja, aber nur für Bedürftige!", "Nein, aber mit Unterstützung für Bauern!", "Nein, aber mit Augenmaß!", "Nein, ein Tempolimit hilft!", "Nein, Mieten müssen begrenzt werden!", "Ja, aber kontrollierte Migration!"],
+    "CDU": ["Nein, wir brauchen unterschiedliche Schulen!", "Nein, zu teuer für Autofahrer!", "Nein, Familien sollen selbst vorsorgen!", "Ja, aber nicht als Pflicht!", "Nein, das kostet zu viel!", "Ja, Bauern sollten selbst entscheiden!", "Ja, keine staatliche Förderung für erneuerbare Energien!", "Ja, kein Tempolimit nötig!", "Ja, freie Mietpreise!", "Nein, Migration muss begrenzt werden!"],
+    "AfD": ["Nein, das alte System funktioniert!", "Nein, Klimawandel ist nicht menschengemacht!", "Nein, weniger Staat, mehr Eigenverantwortung!", "Nein, Digitalisierung ist überbewertet!", "Nein, keine staatlichen Zuschüsse für Verkehr!", "Ja, Tierschutz ist überreguliert!", "Ja, erneuerbare Energien sollen sich selbst finanzieren!", "Ja, Tempolimit ist unnötig!", "Ja, Markt regelt Mieten!", "Nein, keine Aufnahme von Migranten!"],
+    "FDP": ["Nein, Leistung muss sich lohnen!", "Nein, Technologie soll es lösen!", "Nein, keine zusätzlichen Ausgaben!", "Ja, aber mit privaten Anbietern!", "Nein, keine Gratisleistungen!", "Ja, Tierschutz über den Markt regeln!", "Ja, erneuerbare Energien ohne Subventionen!", "Ja, Tempolimit ist überflüssig!", "Ja, Mietpreise sollen frei bleiben!", "Nein, nur qualifizierte Migration!"]
 }
 
-# Positionen der Parteien (3 = stark dafür, 2 = eher dafür, 1 = neutral, -2 = eher dagegen, -3 = stark dagegen)
+# Positionen der Parteien (1 = vollständige Übereinstimmung, 0.75 = eher Zustimmung, 0.5 = neutral, 0.25 = eher Ablehnung, 0 = keine Übereinstimmung)
 positionen = np.array([
-    [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],  # Grüne
-    [3, 3, 3, 3, 3, 3, 3, 3, 3, 3],  # Linke
-    [2, 2, 2, 3, 2, 2, 3, 2, 2, 2],  # SPD
-    [-2, -2, -2, 2, -2, -2, 2, -2, -2, -2],  # CDU
-    [-3, -3, -3, -2, -3, -3, -3, -3, -3, -3],  # AfD
-    [-2, -2, -2, 2, -2, -2, 2, -2, -2, -2],  # FDP
+    [1, 1, 1, 1, 1, 0, 0, 0, 0, 1],  # Grüne
+    [1, 1, 1, 1, 1, 0, 0, 0, 0, 1],  # Linke
+    [0.75, 0.75, 0.75, 1, 0.75, 0, 0, 0, 0, 1],  # SPD
+    [0, 0, 0, 0.75, 0, 1, 1, 1, 1, 0],  # CDU
+    [0, 0, 0, 0, 0, 1, 1, 1, 1, 0],  # AfD
+    [0, 0, 0, 0.75, 0, 1, 1, 1, 1, 0]  # FDP
 ])
 
 # Streamlit App
@@ -48,21 +48,20 @@ for i, aussage in enumerate(aussagen):
         ("Stimme voll zu", "Stimme eher zu", "Neutral", "Stimme eher nicht zu", "Stimme gar nicht zu"),
         index=2
     )
-    
-    antwort_wert = {"Stimme voll zu": 3, "Stimme eher zu": 2, "Neutral": 1, "Stimme eher nicht zu": -2, "Stimme gar nicht zu": -3}[antwort]
+    antwort_wert = {"Stimme voll zu": 1, "Stimme eher zu": 0.75, "Neutral": 0.5, "Stimme eher nicht zu": 0.25, "Stimme gar nicht zu": 0}[antwort]
     nutzer_antworten.append(antwort_wert)
 
 if st.button("Ergebnis anzeigen"):
-    partei_scores = np.dot(positionen, nutzer_antworten)
-    ergebnis_df = pd.DataFrame({"Partei": parteien, "Übereinstimmung": partei_scores})
-    ergebnis_df = ergebnis_df.sort_values(by="Übereinstimmung", ascending=False)
+    partei_scores = np.dot(positionen, nutzer_antworten) / len(aussagen) * 100
+    ergebnis_df = pd.DataFrame({"Partei": parteien, "Übereinstimmung (%)": partei_scores})
+    ergebnis_df = ergebnis_df.sort_values(by="Übereinstimmung (%)", ascending=False)
     
     st.subheader("Deine beste Übereinstimmung:")
     best_match = ergebnis_df.iloc[0]
-    st.markdown(f"**{best_match['Partei']} passt am besten zu dir!**")
+    st.markdown(f"**{best_match['Partei']} passt am besten zu dir mit {best_match['Übereinstimmung (%)']:.2f}% Übereinstimmung!**")
     
     for i, partei in enumerate(ergebnis_df["Partei"]):
-        with st.expander(f"{partei} - {ergebnis_df['Übereinstimmung'].iloc[i]} Punkte"):
+        with st.expander(f"{partei} - {ergebnis_df['Übereinstimmung (%)'].iloc[i]:.2f}% Übereinstimmung"):
             for j, aussage in enumerate(aussagen):
                 st.write(f"**{aussage}**: {meinungen[partei][j]}")
     
