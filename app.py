@@ -36,3 +36,33 @@ positionen = np.array([
     [0, 0, 0, 0, 0, 1, 1, 0, 1, 0],  # AfD
     [0, 0, 0, 0.75, 0, 1, 1, 0, 1, 0]  # FDP
 ])
+
+# Streamlit App
+st.title("Rütli Wahl-O-Mat")
+st.write("Beantworte die Fragen und finde heraus, welche Partei am besten zu dir passt!")
+
+nutzer_antworten = []
+for i, aussage in enumerate(aussagen):
+    antwort = st.radio(
+        f"{aussage}",
+        ("Stimme voll zu", "Stimme eher zu", "Neutral", "Stimme eher nicht zu", "Stimme gar nicht zu"),
+        index=2
+    )
+    antwort_wert = {"Stimme voll zu": 1, "Stimme eher zu": 0.75, "Neutral": 0.5, "Stimme eher nicht zu": 0.25, "Stimme gar nicht zu": 0}[antwort]
+    nutzer_antworten.append(antwort_wert)
+
+if st.button("Ergebnis anzeigen"):
+    partei_scores = np.dot(positionen, nutzer_antworten) / len(aussagen) * 100
+    ergebnis_df = pd.DataFrame({"Partei": parteien, "Übereinstimmung (%)": partei_scores})
+    ergebnis_df = ergebnis_df.sort_values(by="Übereinstimmung (%)", ascending=False)
+    
+    st.subheader("Deine beste Übereinstimmung:")
+    best_match = ergebnis_df.iloc[0]
+    st.markdown(f"**{best_match['Partei']} passt am besten zu dir mit {best_match['Übereinstimmung (%)']:.2f}% Übereinstimmung!**")
+    
+    for i, partei in enumerate(ergebnis_df["Partei"]):
+        with st.expander(f"{partei} - {ergebnis_df['Übereinstimmung (%)'].iloc[i]:.2f}% Übereinstimmung"):
+            for j, aussage in enumerate(aussagen):
+                st.write(f"**{aussage}**: {meinungen[partei][j]}")
+    
+    st.bar_chart(ergebnis_df.set_index("Partei"))
