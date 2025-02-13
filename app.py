@@ -38,7 +38,7 @@ positionen = np.array([
 ])
 
 # Streamlit App
-st.title("Dein Wahl-Tool für Kinder")
+st.title("Rütli Wahl-O-Mat")
 st.write("Beantworte die Fragen und finde heraus, welche Partei am besten zu dir passt!")
 
 nutzer_antworten = []
