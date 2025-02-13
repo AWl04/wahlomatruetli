@@ -38,7 +38,7 @@ positionen = np.array([
 ])
 
 # Streamlit App
-st.title("Rütli Wahl-O-Mat")
+st.title("Dein Wahl-Tool für Kinder")
 st.write("Beantworte die Fragen und finde heraus, welche Partei am besten zu dir passt!")
 
 nutzer_antworten = []
@@ -52,7 +52,7 @@ for i, aussage in enumerate(aussagen):
     nutzer_antworten.append(antwort_wert)
 
 if st.button("Ergebnis anzeigen"):
-    partei_scores = np.dot(positionen, nutzer_antworten) / len(aussagen) * 100
+    partei_scores = (np.dot(positionen, nutzer_antworten) / sum(nutzer_antworten)) * 100
     ergebnis_df = pd.DataFrame({"Partei": parteien, "Übereinstimmung (%)": partei_scores})
     ergebnis_df = ergebnis_df.sort_values(by="Übereinstimmung (%)", ascending=False)
     
